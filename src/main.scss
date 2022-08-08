@@ -1,0 +1,38 @@
+@import "config";
+@import 'utils';
+@import 'button';
+
+*{
+    @include reset-pm();
+    box-sizing: border-box;
+}
+
+header{
+    nav{
+        background-color: $Tint-Blue;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;        
+        height: 5.75rem;
+    }
+    img{
+        margin-left: 10rem;
+    }
+}
+
+ul{
+    @include reset-pm();
+    list-style: none;
+    display:flex;
+    gap: 2rem;
+    margin-right: 13rem;
+    li{
+        color:white;
+        a{
+            @include btn();
+            padding: 1rem 3rem;
+        }
+    }
+
+
+}
