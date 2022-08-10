@@ -19,6 +19,14 @@ header{
         margin-left: 10rem;
     }
 }
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    p{
+        @include body01();
+    }
+}
 
 ul{
     @include reset-pm();
@@ -35,4 +43,11 @@ ul{
     }
 
 
+}
+
+footer{
+    background-color: $Tint-Blue;
+    margin-top: auto;
+    height: 24.8125rem;
+    
 }

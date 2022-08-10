@@ -1,4 +1,28 @@
-@mixin reset-pm{
+@mixin reset-pm {
     margin: 0;
     padding: 0;
+}
+
+@mixin body01 {
+    /* Body 01 */
+
+
+    //position: absolute;
+    width: 87px;
+    height: 36px;
+    left: 560px;
+    top: 527px;
+
+    /* Heading/H3 */
+
+    font-family: 'Gilroy';
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+
+    color: #232536;
+
+    opacity: 0.5;
+
 }
