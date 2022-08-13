@@ -20,15 +20,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-body p {
-  /* Heading/H3 */
-  font-family: "Gilroy";
-  font-size: 24px;
-  line-height: 36px;
-  /* identical to box height, or 150% */
-  color: #232536;
-  opacity: 0.5;
-}
 
 ul {
   margin: 0;
@@ -53,4 +44,12 @@ footer {
   background-color: #1C1E53;
   margin-top: auto;
   height: 24.8125rem;
+}
+footer .container .row {
+  display: flex;
+  flex-direction: row;
+  padding: 100px 158px;
+}
+footer .container .row .col {
+  width: 339px;
 }/*# sourceMappingURL=main.css.map */

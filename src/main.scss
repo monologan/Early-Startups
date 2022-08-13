@@ -2,41 +2,43 @@
 @import 'utils';
 @import 'button';
 
-*{
+* {
     @include reset-pm();
     box-sizing: border-box;
 }
 
-header{
-    nav{
+header {
+    nav {
         background-color: $Tint-Blue;
         display: flex;
         align-items: center;
-        justify-content: space-between;        
+        justify-content: space-between;
         height: 5.75rem;
     }
-    img{
+
+    img {
         margin-left: 10rem;
     }
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    p{
-        @include body01();
-    }
+
 }
 
-ul{
+ul {
     @include reset-pm();
     list-style: none;
-    display:flex;
+    display: flex;
     gap: 2rem;
     margin-right: 13rem;
-    li{
-        color:white;
-        a{
+
+    li {
+        color: white;
+
+        a {
             @include btn();
             padding: 1rem 3rem;
         }
@@ -45,9 +47,27 @@ ul{
 
 }
 
-footer{
+footer {
+
     background-color: $Tint-Blue;
     margin-top: auto;
     height: 24.8125rem;
-    
+
+    .container {
+
+
+        .row {
+            display: flex;
+            flex-direction: row;            
+            padding: 100px 158px;
+
+            .col {
+                width: 339px;
+            }
+
+
+        }
+    }
+
+
 }
